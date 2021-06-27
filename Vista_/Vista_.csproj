@@ -89,6 +89,9 @@
     <Content Include="Icon\Home.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Icon\mas.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Icon\Next.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

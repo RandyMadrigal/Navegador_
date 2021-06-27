@@ -45,6 +45,8 @@ namespace Vista_
             btnFavorito.Image = Image.FromFile(@"Icon/fav.png");
 
             btnCancelar.Image = Image.FromFile(@"Icon/Stop.png");
+
+            btn_info.Image = Image.FromFile(@"Icon/mas.png");
         }
 
         private void BtnHome_Click(object sender, EventArgs e)
@@ -102,7 +104,5 @@ namespace Vista_
         {
             txtUrl.Text = comboboxFav.SelectedText;
         }
-
-
     }
 }

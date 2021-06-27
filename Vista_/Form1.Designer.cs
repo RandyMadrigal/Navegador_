@@ -41,6 +41,7 @@ namespace Vista_
             this.btnBack = new System.Windows.Forms.Button();
             this.webBrowser = new System.Windows.Forms.WebBrowser();
             this.labelValidando = new System.Windows.Forms.Label();
+            this.btn_info = new System.Windows.Forms.Button();
             this.panel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,7 +49,8 @@ namespace Vista_
             // 
             this.panel.AutoSize = true;
             this.panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(47)))), ((int)(((byte)(60)))));
-            this.panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel.Controls.Add(this.btn_info);
             this.panel.Controls.Add(this.comboboxFav);
             this.panel.Controls.Add(this.btnFavorito);
             this.panel.Controls.Add(this.btnCancelar);
@@ -61,7 +63,7 @@ namespace Vista_
             this.panel.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel.Location = new System.Drawing.Point(0, 0);
             this.panel.Name = "panel";
-            this.panel.Size = new System.Drawing.Size(1808, 56);
+            this.panel.Size = new System.Drawing.Size(1808, 54);
             this.panel.TabIndex = 0;
             // 
             // comboboxFav
@@ -171,10 +173,10 @@ namespace Vista_
             // webBrowser
             // 
             this.webBrowser.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.webBrowser.Location = new System.Drawing.Point(0, 56);
+            this.webBrowser.Location = new System.Drawing.Point(0, 54);
             this.webBrowser.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser.Name = "webBrowser";
-            this.webBrowser.Size = new System.Drawing.Size(1808, 747);
+            this.webBrowser.Size = new System.Drawing.Size(1808, 749);
             this.webBrowser.TabIndex = 1;
             this.webBrowser.Navigating += new System.Windows.Forms.WebBrowserNavigatingEventHandler(this.webBrowser_Navigating);
             // 
@@ -188,6 +190,17 @@ namespace Vista_
             this.labelValidando.Size = new System.Drawing.Size(40, 23);
             this.labelValidando.TabIndex = 2;
             this.labelValidando.Text = ".....";
+            // 
+            // btn_info
+            // 
+            this.btn_info.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_info.FlatAppearance.BorderSize = 0;
+            this.btn_info.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_info.Location = new System.Drawing.Point(1743, 5);
+            this.btn_info.Name = "btn_info";
+            this.btn_info.Size = new System.Drawing.Size(56, 43);
+            this.btn_info.TabIndex = 9;
+            this.btn_info.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -224,6 +237,7 @@ namespace Vista_
         private System.Windows.Forms.Button btnFavorito;
         private System.Windows.Forms.Label labelValidando;
         private System.Windows.Forms.ComboBox comboboxFav;
+        private System.Windows.Forms.Button btn_info;
     }
 }
 

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "vista_informacion/1.0.0": {
+        "runtime": {
+          "vista_informacion.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "vista_informacion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
