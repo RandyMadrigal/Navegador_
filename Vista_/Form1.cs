@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
-using vista_informacion;
 
 
 namespace Vista_
@@ -9,8 +8,8 @@ namespace Vista_
     public partial class Form1 : Form
     {
         //Instancia de la Clase form1
-
-        info_form info;
+        Form2 info = new Form2();
+        
     
         //Metodos.
 
@@ -104,6 +103,11 @@ namespace Vista_
         private void comboboxFav_Click(object sender, EventArgs e)
         {
             txtUrl.Text = comboboxFav.SelectedText;
+        }
+
+        private void btn_info_Click(object sender, EventArgs e)
+        {
+            info.Show();
         }
     }
 }

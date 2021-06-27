@@ -76,6 +76,7 @@ namespace Vista_
             this.btn_info.Size = new System.Drawing.Size(56, 43);
             this.btn_info.TabIndex = 9;
             this.btn_info.UseVisualStyleBackColor = true;
+            this.btn_info.Click += new System.EventHandler(this.btn_info_Click);
             // 
             // comboboxFav
             // 
