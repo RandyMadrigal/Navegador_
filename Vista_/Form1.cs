@@ -1,18 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using vista_informacion;
+
 
 namespace Vista_
 {
     public partial class Form1 : Form
     {
+        //Instancia de la Clase form1
+
+        info_form info;
+    
         //Metodos.
+
         public Form1()
         {
             InitializeComponent();

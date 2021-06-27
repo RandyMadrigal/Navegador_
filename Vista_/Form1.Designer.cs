@@ -30,6 +30,7 @@ namespace Vista_
         private void InitializeComponent()
         {
             this.panel = new System.Windows.Forms.Panel();
+            this.btn_info = new System.Windows.Forms.Button();
             this.comboboxFav = new System.Windows.Forms.ComboBox();
             this.btnFavorito = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
@@ -41,7 +42,6 @@ namespace Vista_
             this.btnBack = new System.Windows.Forms.Button();
             this.webBrowser = new System.Windows.Forms.WebBrowser();
             this.labelValidando = new System.Windows.Forms.Label();
-            this.btn_info = new System.Windows.Forms.Button();
             this.panel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,6 +65,17 @@ namespace Vista_
             this.panel.Name = "panel";
             this.panel.Size = new System.Drawing.Size(1808, 54);
             this.panel.TabIndex = 0;
+            // 
+            // btn_info
+            // 
+            this.btn_info.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_info.FlatAppearance.BorderSize = 0;
+            this.btn_info.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_info.Location = new System.Drawing.Point(1743, 5);
+            this.btn_info.Name = "btn_info";
+            this.btn_info.Size = new System.Drawing.Size(56, 43);
+            this.btn_info.TabIndex = 9;
+            this.btn_info.UseVisualStyleBackColor = true;
             // 
             // comboboxFav
             // 
@@ -190,17 +201,6 @@ namespace Vista_
             this.labelValidando.Size = new System.Drawing.Size(40, 23);
             this.labelValidando.TabIndex = 2;
             this.labelValidando.Text = ".....";
-            // 
-            // btn_info
-            // 
-            this.btn_info.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_info.FlatAppearance.BorderSize = 0;
-            this.btn_info.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_info.Location = new System.Drawing.Point(1743, 5);
-            this.btn_info.Name = "btn_info";
-            this.btn_info.Size = new System.Drawing.Size(56, 43);
-            this.btn_info.TabIndex = 9;
-            this.btn_info.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 

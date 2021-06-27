@@ -27,7 +27,11 @@
         "frameworks": {
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Randy\\source\\repos\\Navegador_\\Vista_\\Vista_.csproj": {
+                "projectPath": "C:\\Users\\Randy\\source\\repos\\Navegador_\\Vista_\\Vista_.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -59,6 +63,16 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\Randy\\source\\repos\\Navegador_\\Vista_\\Vista_.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Randy\\source\\repos\\Navegador_\\Vista_\\Vista_.csproj",
+        "projectName": "Vista_",
+        "projectPath": "C:\\Users\\Randy\\source\\repos\\Navegador_\\Vista_\\Vista_.csproj"
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }

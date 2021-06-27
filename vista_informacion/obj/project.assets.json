@@ -1,11 +1,29 @@
 {
   "version": 3,
   "targets": {
-    "net5.0-windows7.0": {}
+    "net5.0-windows7.0": {
+      "Vista_/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Vista_.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vista_.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Vista_/1.0.0": {
+      "type": "project",
+      "path": "../Vista_/Vista_.csproj",
+      "msbuildProject": "../Vista_/Vista_.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0-windows7.0": []
+    "net5.0-windows7.0": [
+      "Vista_ >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Randy\\.nuget\\packages\\": {}
@@ -33,7 +51,11 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Randy\\source\\repos\\Navegador_\\Vista_\\Vista_.csproj": {
+              "projectPath": "C:\\Users\\Randy\\source\\repos\\Navegador_\\Vista_\\Vista_.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

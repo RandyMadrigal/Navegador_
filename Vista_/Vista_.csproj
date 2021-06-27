@@ -105,5 +105,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\vista_informacion\vista_informacion.csproj">
+      <Project>{e1f9683a-a312-4ce1-b1ec-54262b2c6b6b}</Project>
+      <Name>vista_informacion</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
