@@ -71,7 +71,7 @@ namespace Vista_
             this.btn_info.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_info.FlatAppearance.BorderSize = 0;
             this.btn_info.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_info.Location = new System.Drawing.Point(1743, 5);
+            this.btn_info.Location = new System.Drawing.Point(1751, 5);
             this.btn_info.Name = "btn_info";
             this.btn_info.Size = new System.Drawing.Size(56, 43);
             this.btn_info.TabIndex = 9;
@@ -84,7 +84,7 @@ namespace Vista_
             this.comboboxFav.FormattingEnabled = true;
             this.comboboxFav.Location = new System.Drawing.Point(1457, 9);
             this.comboboxFav.Name = "comboboxFav";
-            this.comboboxFav.Size = new System.Drawing.Size(297, 32);
+            this.comboboxFav.Size = new System.Drawing.Size(280, 32);
             this.comboboxFav.TabIndex = 8;
             this.comboboxFav.Text = "-";
             this.comboboxFav.Click += new System.EventHandler(this.comboboxFav_Click);
@@ -117,7 +117,7 @@ namespace Vista_
             this.BtnHome.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnHome.FlatAppearance.BorderSize = 0;
             this.BtnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnHome.Location = new System.Drawing.Point(1289, 1);
+            this.BtnHome.Location = new System.Drawing.Point(1289, 5);
             this.BtnHome.Name = "BtnHome";
             this.BtnHome.Size = new System.Drawing.Size(60, 43);
             this.BtnHome.TabIndex = 4;
@@ -137,7 +137,7 @@ namespace Vista_
             this.btnEnter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnEnter.FlatAppearance.BorderSize = 0;
             this.btnEnter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEnter.Location = new System.Drawing.Point(265, 0);
+            this.btnEnter.Location = new System.Drawing.Point(265, 6);
             this.btnEnter.Name = "btnEnter";
             this.btnEnter.Size = new System.Drawing.Size(60, 43);
             this.btnEnter.TabIndex = 5;

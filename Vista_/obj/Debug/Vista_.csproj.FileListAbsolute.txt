@@ -16,3 +16,4 @@ C:\Users\Randy\source\repos\Navegador_\Vista_\bin\Debug\Icon\Home.png
 C:\Users\Randy\source\repos\Navegador_\Vista_\bin\Debug\Icon\Stop.png
 C:\Users\Randy\source\repos\Navegador_\Vista_\bin\Debug\Icon\fav.png
 C:\Users\Randy\source\repos\Navegador_\Vista_\bin\Debug\Icon\mas.png
+C:\Users\Randy\source\repos\Navegador_\Vista_\obj\Debug\Vista_.Form2.resources

@@ -16,5 +16,23 @@ namespace Vista_
         {
             InitializeComponent();
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            DiseñoBotones();
+        }
+
+        private void DiseñoBotones()
+        {
+            btnAtras.Image = Image.FromFile(@"Icon/Previous.png");
+            btnSiguiente.Image = Image.FromFile(@"Icon/Next.png");
+            btnRefresh.Image = Image.FromFile(@"Icon/Refresh.png");
+            btnStop.Image = Image.FromFile(@"Icon/Stop.png");
+            btnEnter.Image = Image.FromFile(@"Icon/Enter.png");
+            btnHome.Image = Image.FromFile(@"Icon/Home.png");
+            btnfav.Image = Image.FromFile(@"Icon/fav.png");
+
+        }
+
     }
 }
