@@ -1,7 +1,7 @@
 ﻿
 namespace Vista_
 {
-    partial class Form2
+    partial class Secundaria
     {
         /// <summary>
         /// Required designer variable.

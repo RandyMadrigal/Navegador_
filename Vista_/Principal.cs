@@ -5,21 +5,23 @@ using System.Windows.Forms;
 
 namespace Vista_
 {
-    public partial class Form1 : Form
+    public partial class Principal : Form
     {
         //Instancia de la Clase form1
-        Form2 info = new Form2();
+        Secundaria info = new Secundaria();
         
     
         //Metodos.
 
-        public Form1()
+        public Principal()
         {
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            this.Icon = new Icon(@"Icon/navegador.ico");
+
             DiseñoBotones();
 
             webBrowser.Navigate("www.google.com");
@@ -46,7 +48,7 @@ namespace Vista_
 
             btnCancelar.Image = Image.FromFile(@"Icon/Stop.png");
 
-            btn_info.Image = Image.FromFile(@"Icon/mas.png");
+            btn_info.Image = Image.FromFile(@"Icon/informacion.png");
         }
 
         private void BtnHome_Click(object sender, EventArgs e)

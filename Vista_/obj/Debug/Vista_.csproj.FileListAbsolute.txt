@@ -2,7 +2,6 @@ C:\Users\Randy\source\repos\Navegador_\Vista_\bin\Debug\Vista_.exe.config
 C:\Users\Randy\source\repos\Navegador_\Vista_\bin\Debug\Vista_.exe
 C:\Users\Randy\source\repos\Navegador_\Vista_\bin\Debug\Vista_.pdb
 C:\Users\Randy\source\repos\Navegador_\Vista_\obj\Debug\Vista_.csproj.AssemblyReference.cache
-C:\Users\Randy\source\repos\Navegador_\Vista_\obj\Debug\Vista_.Form1.resources
 C:\Users\Randy\source\repos\Navegador_\Vista_\obj\Debug\Vista_.Properties.Resources.resources
 C:\Users\Randy\source\repos\Navegador_\Vista_\obj\Debug\Vista_.csproj.GenerateResource.cache
 C:\Users\Randy\source\repos\Navegador_\Vista_\obj\Debug\Vista_.csproj.CoreCompileInputs.cache
@@ -15,5 +14,7 @@ C:\Users\Randy\source\repos\Navegador_\Vista_\bin\Debug\Icon\Refresh.png
 C:\Users\Randy\source\repos\Navegador_\Vista_\bin\Debug\Icon\Home.png
 C:\Users\Randy\source\repos\Navegador_\Vista_\bin\Debug\Icon\Stop.png
 C:\Users\Randy\source\repos\Navegador_\Vista_\bin\Debug\Icon\fav.png
-C:\Users\Randy\source\repos\Navegador_\Vista_\bin\Debug\Icon\mas.png
-C:\Users\Randy\source\repos\Navegador_\Vista_\obj\Debug\Vista_.Form2.resources
+C:\Users\Randy\source\repos\Navegador_\Vista_\bin\Debug\Icon\informacion.png
+C:\Users\Randy\source\repos\Navegador_\Vista_\obj\Debug\Vista_.Principal.resources
+C:\Users\Randy\source\repos\Navegador_\Vista_\obj\Debug\Vista_.Secundaria.resources
+C:\Users\Randy\source\repos\Navegador_\Vista_\bin\Debug\Icon\navegador.ico

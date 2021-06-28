@@ -1,7 +1,7 @@
 ﻿
 namespace Vista_
 {
-    partial class Form1
+    partial class Principal
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -203,7 +203,7 @@ namespace Vista_
             this.labelValidando.TabIndex = 2;
             this.labelValidando.Text = ".....";
             // 
-            // Form1
+            // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -211,9 +211,9 @@ namespace Vista_
             this.Controls.Add(this.labelValidando);
             this.Controls.Add(this.webBrowser);
             this.Controls.Add(this.panel);
-            this.Name = "Form1";
+            this.Name = "Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Randt Browser  / 2019-8915";
+            this.Text = "Randy Browser  / 2019-8915";
             this.TopMost = true;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
